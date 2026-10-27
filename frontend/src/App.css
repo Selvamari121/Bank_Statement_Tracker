@@ -1,0 +1,126 @@
+#root {
+  min-height: 100vh;
+}
+
+.dashboard {
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.page-header {
+  margin-bottom: 30px;
+}
+
+.page-header h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.page-header p {
+  margin-top: 8px;
+  color: #64748b;
+}
+
+.upload-card,
+.table-card {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.upload-card h2,
+.table-card h2 {
+  margin-top: 0;
+}
+
+.upload-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.upload-row input {
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 11px 18px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.file-name {
+  color: #475569;
+  margin-bottom: 0;
+}
+
+.message {
+  color: #2563eb;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table-header span {
+  color: #64748b;
+  font-size: 14px;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+th {
+  background: #f8fafc;
+  color: #475569;
+}
+
+.credit {
+  color: #16a34a;
+  font-weight: 600;
+}
+
+.debit {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+.empty,
+.loading {
+  padding: 40px;
+  text-align: center;
+  color: #64748b;
+}
